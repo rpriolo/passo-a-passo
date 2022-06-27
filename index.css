@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+    background-color: rgba(107, 138, 105, 0.60);
+    margin: 50px 0 0 0;
+}
+
+header {
+    text-align: center;
+    color: whitesmoke;
+}
+
+section {
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.20);
+    padding: 25px;
+    width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+form#inputs label {
+    display: block;
+    margin: 0 0 5px 0;
+}
+
+form#inputs input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px 20px 10px 38px;
+    margin: 0 0 15px 0;
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+    border:  1px solid rgba(128, 128, 128, 0.587);
+    text-align: center;
+}
+
+form#inputs input#botao {
+    padding: 10px 20px;
+    width: 150px;
+    height: 62px;
+    margin: 15px 0 5px 0;
+    border: 1px solid rgb(61, 92, 58);
+    border-radius: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: rgb(107, 138, 105);
+    color: whitesmoke;
+}
+
+form#inputs input#botao:hover {
+    background-color: rgba(107, 138, 105, 0.91);
+    transition: 250ms;
+    cursor: pointer;
+}
+
+div#contagem hr {
+    margin: 35px 25px 25px 25px;
+}
+
+div#contagem h2 {
+    margin: 0;
+}
+
+div#contagem p {
+    margin: 5px 0;
+}
+
+footer {
+    margin: 25px 0 0 0;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 14px;
+}
